@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+but the <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
@@ -402,26 +402,18 @@
         <!-- ▼ EDIT / DUPLICATE project blocks ▼ -->
         <article class="project reveal" data-tilt>
           <div class="project-top"><div class="project-index">PROJECT 01</div></div>
-          <h3>Network Traffic Monitor</h3>
-          <p>A real-time packet analyzer that captures and visualizes network traffic, with alerting for anomalous patterns. Built for low overhead on constrained hardware.</p>
-          <div class="tags"><span class="tag">C++</span><span class="tag">libpcap</span><span class="tag">React</span></div>
-          <div class="project-links"><a href="#" data-cursor>GitHub &rarr;</a><a href="#" data-cursor>Live demo &rarr;</a></div>
+          <h3>Phishing URL Detector</h3>
+          <p>A machine-learning tool that scores a URL as likely phishing or safe from its text alone. Found and fixed a dataset bias the model was exploiting, then added a top-domain feature to cut false positives &mdash; phishing recall improved from 0.65 to 0.80.</p>
+          <div class="tags"><span class="tag">Python</span><span class="tag">scikit-learn</span><span class="tag">Flask</span></div>
+          <div class="project-links"><a href="https://github.com/Matheos13/phishing-url-detector" target="_blank" rel="noopener" data-cursor>GitHub &rarr;</a></div>
         </article>
 
         <article class="project reveal" data-tilt>
           <div class="project-top"><div class="project-index">PROJECT 02</div></div>
-          <h3>Distributed Key-Value Store</h3>
-          <p>A fault-tolerant storage system implementing the Raft consensus algorithm, with automatic leader election and log replication across nodes.</p>
-          <div class="tags"><span class="tag">Go</span><span class="tag">Raft</span><span class="tag">gRPC</span></div>
-          <div class="project-links"><a href="#" data-cursor>GitHub &rarr;</a></div>
-        </article>
-
-        <article class="project reveal" data-tilt>
-          <div class="project-top"><div class="project-index">PROJECT 03</div></div>
-          <h3>LLM + RAG Research Platform</h3>
-          <p>Tooling and experiments behind published research on retrieval-augmented generation &mdash; evaluation pipelines, embedding stores, and reproducible benchmarks.</p>
-          <div class="tags"><span class="tag">Python</span><span class="tag">PyTorch</span><span class="tag">RAG</span></div>
-          <div class="project-links"><a href="#" data-cursor>Paper &rarr;</a><a href="#" data-cursor>GitHub &rarr;</a></div>
+          <h3>SSH Brute-Force Tool</h3>
+          <p>A credential brute-forcing script built for a cybersecurity coursework exercise, testing username/password combinations against an SSH server on lab infrastructure I controlled. Built to understand the attack side of the credential-security problem.</p>
+          <div class="tags"><span class="tag">Python</span><span class="tag">Networking</span><span class="tag">Security</span></div>
+          <div class="project-links"><a href="https://github.com/Matheos13/ssh-bruteforce-attempt-1" target="_blank" rel="noopener" data-cursor>GitHub &rarr;</a></div>
         </article>
 
       </div>
@@ -518,7 +510,8 @@ Lecture Understanding</h3>
     </div>
   </footer>
 
-  <script src="https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"></script>
+  <!-- Lenis smooth-scroll removed: it was hijacking trackpad scrolling -->
+  <script>window.Lenis = null;</script>
   <script>
   (function () {
     var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
