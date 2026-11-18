@@ -5,7 +5,7 @@ Computer Science researcher and freelance web developer specialising in AI, LLMs
 ## About Me
 - 📚 B.Sc. Computer Science — Ionian University, Greece
 - 🌍 Erasmus+ Exchanges — Universidad de Málaga (2026) and Universitat Rovira i Virgili, Tarragona (2026–27)
-- 🔬 Research on LLMs and RAG systems at HILab, Ionian University (1 paper published, 2 in progress)
+- 🔬 Research on LLMs and RAG systems at HILab, Ionian University (working on publishing CS-RAG)
 - 💻 Freelance web developer since 2024
 
 ## Tech Stack
@@ -22,9 +22,7 @@ Open-source work:
 - [phishing-url-detector](https://github.com/Matheos13/phishing-url-detector) — ML classifier that flags phishing URLs from the URL text alone
 
 ## Research
-- Large Language Models for Real-Time Financing Forecasting (published)
-- Bias in Artificial Intelligence (in progress)
-- Fully Offline RAG System for CS Lecture Understanding (in preparation)
+- CS-RAG: a fully offline RAG system for understanding CS lectures (paper in preparation at HILab). Code: [CSRag](https://github.com/Matheos13/CSRag)
 
 ## Contact
 📧 mathaiou.agency@gmail.com
