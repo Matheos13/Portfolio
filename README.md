@@ -4,8 +4,8 @@ Computer Science researcher and freelance web developer specialising in AI, LLMs
 
 ## About Me
 - 📚 B.Sc. Computer Science — Ionian University, Greece
-- 🌍 Erasmus+ Exchange — Universidad de Málaga, Spain (2026)
-- 🔬 3 peer-reviewed publications in AI, LLMs, and RAG systems
+- 🌍 Erasmus+ Exchanges — Universidad de Málaga (2026) and Universitat Rovira i Virgili, Tarragona (2026–27)
+- 🔬 Research on LLMs and RAG systems at HILab, Ionian University (1 paper published, 2 in progress)
 - 💻 Freelance web developer since 2024
 
 ## Tech Stack
@@ -16,10 +16,16 @@ Computer Science researcher and freelance web developer specialising in AI, LLMs
 ## Projects
 This portfolio showcases my freelance web development work including websites and e-commerce platforms built for clients across Greece and Spain.
 
+Open-source work:
+- [importlens-mcp](https://github.com/Matheos13/importlens-mcp) — MCP server giving coding agents import-aware context on Python repos
+- [trading-bot](https://github.com/Matheos13/trading-bot) — modular crypto trading bot with backtesting and paper trading
+- [phishing-url-detector](https://github.com/Matheos13/phishing-url-detector) — ML classifier that flags phishing URLs from the URL text alone
+
 ## Research
-- Large Language Models for Real-Time Financing Forecasting
-- Bias in Artificial Intelligence
-- Fully Offline RAG System for CS Lecture Understanding
+- Large Language Models for Real-Time Financing Forecasting (published)
+- Bias in Artificial Intelligence (in progress)
+- Fully Offline RAG System for CS Lecture Understanding (in preparation)
 
 ## Contact
-📧 matheosmat13@gmail.com
+📧 mathaiou.agency@gmail.com
+🌐 [mathaiosmathaiou.netlify.app](https://mathaiosmathaiou.netlify.app)
